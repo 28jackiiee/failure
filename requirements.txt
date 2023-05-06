@@ -1,0 +1,5 @@
+numpy==1.23.2
+openai==0.25.0
+opencv-python==4.6.0.66
+Flask==2.2.2
+python-dotenv==0.21.0
