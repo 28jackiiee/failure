@@ -1,18 +1,22 @@
 from getpass import getpass
 import os
+<<<<<<< Updated upstream
 import replicate 
+=======
+>>>>>>> Stashed changes
 import replicate
 from flask import Flask, render_template, request
 from bs4 import BeautifulSoup 
 
-REPLICATE_API_TOKEN = getpass()
-os.environ["r8_DqBcjBRRLps5L3bsu7b2oNtfBZHsD7e3JJMEV"] = REPLICATE_API_TOKEN
 app = Flask(__name__)
 
+<<<<<<< Updated upstream
 output = replicate.run(
   "stability-ai/stable-diffusion:27b93a2413e7f36cd83da926f3656280b2931564ff050bf9575f1fdf9bcd7478",
   input={"prompt": "people having fuck"}
 )
+=======
+>>>>>>> Stashed changes
 @app.route("/", methods=["GET", "POST"])
 def generate_image():
     if request.method == "POST":
@@ -27,7 +31,10 @@ def generate_image():
         print(output)
     return render_template("index.html")
 
+<<<<<<< Updated upstream
 print(output)
+=======
+>>>>>>> Stashed changes
 
 
 if __name__ == "__main__":

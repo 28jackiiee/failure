@@ -1,4 +1,4 @@
-/*making tag buttons*/
+
 const tagColors = ["#D6EFFF", "#FED18C", "#FEFEFF", "#47E5BC"]
 const tags = document.getElementsByClassName("tag");
 for(let i=0; i<tags.length; i++){
