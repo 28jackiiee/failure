@@ -1,6 +1,7 @@
 .title{
     text-align: center;
     font-size: 100px;
+    font-family: 'Playfair Display', serif;
 }
 
 .inputText{
@@ -16,15 +17,23 @@
 }
 
 #interestsInput .inputText{
-    width: 800;
+    width: 800px;
     height: 50px;
+    border: none;
+}
+
+#interestsButton{
+    width: 300px;
+    height: 50px;
+
+    border-radius: 10px;
+    border: none;
 }
 
 
 /*tags*/
 
 #interestsTags{
-    border: 3px solid green;
     padding: 5px;
 
     display: flex;
@@ -34,7 +43,8 @@
 
 ul{
     list-style-type: none;
-    border: 2px solid purple;
+    text-align: center;
+    font-size: 25px;
 
     width: 800px;
 }
@@ -43,6 +53,40 @@ li{
     display: inline-block;
     word-break: break-all;
     text-align: center;
-    border: 1px solid black;
+
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 5px;
+    border-radius: 10px;
+    user-select: none;
+}
+li:hover{
+    cursor: pointer;
 }
 
+
+.li1{
+    background-color: #D6EFFF;
+}
+.li2{
+    background-color: #FED18C;
+}
+.li3{
+    background-color: #FEFEFF;
+}
+
+.color1{
+    background-color: #47E5BC;
+}
+.color2{
+    background-color: #81E4DA;
+}
+.color3{
+    background-color: #AECFDF;
+}
+.color4{
+    background-color: #9F9FAD;
+}
+.color5{
+    background-color: #93748A;
+}
